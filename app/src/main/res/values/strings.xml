@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">cprpgJavaBasic</string>
+
+    <string name="title_activity_game">GameActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_login">Sign in</string>
+
+    <!-- Main Activity Strings -->
+    <string name="button_log_sign">Log In/Sign Up</string>
+    <string name="button_log_out">Log Out</string>
+    <string name="button_resume">Resume Playing</string>
+    <string name="main_title_text">Welcome to CPRPG</string>
+    <!-- character creation -->
+
+    <string-array name="character_creation_available_classess">
+        <item>Choose Class</item>
+        <item>Warrior</item>
+    </string-array>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Username</string>
+    <string name="sign_up_password_warning">There is no password encryption in this demo, please do not use a real password </string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_sign_up">Sign up</string>
+    <string name="action_sing_in_as_guest">Play As Guest</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="error_invalid_email">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="title_activity_character_select">characterSelect</string>
+</resources>

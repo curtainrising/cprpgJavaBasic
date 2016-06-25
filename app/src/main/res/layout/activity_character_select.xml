@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.sammedalen.rpg.cprpgjavabasic.CharacterSelect"
+    android:weightSum="1">
+
+    <Spinner
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/character_select_spinner"
+        android:spinnerMode="dropdown"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/character_select_display">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="name"
+            android:id="@+id/character_select_name"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_name_here"
+            android:id="@+id/character_select_name_value"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="class"
+            android:id="@+id/textView5"
+            android:layout_below="@+id/character_select_name_value"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_name_here"
+            android:id="@+id/character_select_class_value"
+            android:layout_below="@+id/character_select_name_value"
+            android:layout_alignLeft="@+id/character_select_name_value"
+            android:layout_alignStart="@+id/character_select_name_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Strength"
+            android:id="@+id/textView7"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/character_select_class_value"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_value_here"
+            android:id="@+id/character_select_strength_value"
+            android:layout_below="@+id/character_select_class_value"
+            android:layout_alignLeft="@+id/character_select_class_value"
+            android:layout_alignStart="@+id/character_select_class_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Dexterity"
+            android:id="@+id/textView9"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/character_select_strength_value"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_value_here"
+            android:id="@+id/character_select_dexterity_value"
+            android:layout_alignTop="@+id/textView9"
+            android:layout_alignLeft="@+id/character_select_strength_value"
+            android:layout_alignStart="@+id/character_select_strength_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Intelligence"
+            android:id="@+id/textView11"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/character_select_dexterity_value"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_value_here"
+            android:id="@+id/character_select_intelligence_value"
+            android:layout_below="@+id/character_select_dexterity_value"
+            android:layout_alignLeft="@+id/character_select_dexterity_value"
+            android:layout_alignStart="@+id/character_select_dexterity_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="attack"
+            android:id="@+id/textView13"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/character_select_intelligence_value"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_value_here"
+            android:id="@+id/character_select_attack_value"
+            android:layout_below="@+id/character_select_intelligence_value"
+            android:layout_alignLeft="@+id/character_select_intelligence_value"
+            android:layout_alignStart="@+id/character_select_intelligence_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="magic attack"
+            android:id="@+id/textView15"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/character_select_attack_value"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="health"
+            android:id="@+id/textView16"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView15"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="mana"
+            android:id="@+id/textView17"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView16"
+            android:layout_alignParentLeft="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_value_here"
+            android:id="@+id/character_select_magic_attack_value"
+            android:layout_below="@+id/character_select_attack_value"
+            android:layout_alignLeft="@+id/character_select_attack_value"
+            android:layout_alignStart="@+id/character_select_attack_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_value_here"
+            android:id="@+id/character_select_health_value"
+            android:layout_below="@+id/character_select_magic_attack_value"
+            android:layout_alignLeft="@+id/character_select_magic_attack_value"
+            android:layout_alignStart="@+id/character_select_magic_attack_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_value_here"
+            android:id="@+id/character_select_mana_value"
+            android:layout_below="@+id/character_select_health_value"
+            android:layout_alignLeft="@+id/character_select_health_value"
+            android:layout_alignStart="@+id/character_select_health_value" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="skills"
+            android:id="@+id/textView21"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/character_select_mana_value"
+            android:layout_alignParentLeft="true" />
+    </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose"
+        android:id="@+id/character_select_choose_button"
+        android:layout_gravity="center_horizontal"
+        android:visibility="visible"/>
+</LinearLayout>

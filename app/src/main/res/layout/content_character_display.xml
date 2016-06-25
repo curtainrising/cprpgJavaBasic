@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_columnSpan="20"
+    android:orientation="vertical"
+    android:id="@+id/content_character_display"
+    android:visibility="visible">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="name"
+            android:id="@+id/character_display_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_name_here"
+            android:id="@+id/character_display_name_value"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="class"
+            android:id="@+id/character_display_class"
+            android:layout_below="@+id/character_display_name" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="enter_name_here"
+            android:id="@+id/character_display_class_value"
+            android:layout_below="@+id/character_display_name_value"
+            android:layout_alignLeft="@+id/character_display_name_value"
+            android:layout_alignStart="@+id/character_display_name_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Strength"
+        android:id="@+id/character_display_strength"
+        android:layout_below="@+id/character_display_class"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="enter_value_here"
+        android:id="@+id/character_display_strength_value"
+        android:layout_below="@+id/character_display_class_value"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Dexterity"
+        android:id="@+id/character_display_dexterity"
+        android:layout_below="@+id/character_display_strength"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="enter_value_here"
+        android:id="@+id/character_display_dexterity_value"
+        android:layout_below="@+id/character_display_strength_value"
+        android:layout_alignLeft="@+id/character_display_strength_value"
+        android:layout_alignStart="@+id/character_display_strength_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Intelligence"
+        android:id="@+id/character_display_intelligence"
+        android:layout_below="@+id/character_display_dexterity"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="enter_value_here"
+        android:id="@+id/character_display_intelligence_value"
+        android:layout_alignTop="@+id/character_display_intelligence"
+        android:layout_alignLeft="@+id/character_display_class_value"
+        android:layout_alignStart="@+id/character_display_class_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="attack"
+        android:id="@+id/character_display_attack"
+        android:layout_below="@+id/character_display_intelligence"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="enter_value_here"
+        android:id="@+id/character_display_attack_value"
+        android:layout_below="@+id/character_display_intelligence_value"
+        android:layout_alignLeft="@+id/character_display_dexterity_value"
+        android:layout_alignStart="@+id/character_display_dexterity_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="magic attack"
+        android:id="@+id/character_display_magic_attack"
+        android:layout_below="@+id/character_display_attack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="health"
+        android:id="@+id/character_display_health"
+        android:layout_below="@+id/character_display_magic_attack"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="mana"
+        android:id="@+id/character_display_mana"
+        android:layout_below="@+id/character_display_health"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="enter_value_here"
+        android:id="@+id/character_display_magic_attack_value"
+        android:layout_below="@+id/character_display_attack_value"
+        android:layout_alignLeft="@+id/character_display_intelligence_value"
+        android:layout_alignStart="@+id/character_display_intelligence_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="enter_value_here"
+        android:id="@+id/character_display_health_value"
+        android:layout_below="@+id/character_display_magic_attack_value"
+        android:layout_alignLeft="@+id/character_display_attack_value"
+        android:layout_alignStart="@+id/character_display_attack_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="enter_value_here"
+        android:id="@+id/character_display_mana_value"
+        android:layout_below="@+id/character_display_health_value"
+        android:layout_alignLeft="@+id/character_display_health_value"
+        android:layout_alignStart="@+id/character_display_health_value" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="skills"
+        android:id="@+id/character_display_skills"
+        android:layout_below="@+id/character_display_mana"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
